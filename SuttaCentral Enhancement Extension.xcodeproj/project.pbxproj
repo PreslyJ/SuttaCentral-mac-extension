@@ -1,0 +1,985 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 77;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		B41C8CA52CE6681E006A1BFF /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = B41C8CA42CE6681E006A1BFF /* AppDelegate.swift */; };
+		B41C8CA72CE6681E006A1BFF /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = B41C8CA62CE6681E006A1BFF /* SceneDelegate.swift */; };
+		B41C8CAA2CE6681E006A1BFF /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B41C8CA82CE6681E006A1BFF /* LaunchScreen.storyboard */; };
+		B41C8CAD2CE6681E006A1BFF /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B41C8CAB2CE6681E006A1BFF /* Main.storyboard */; };
+		B41C8CB62CE6681E006A1BFF /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = B41C8CB52CE6681E006A1BFF /* AppDelegate.swift */; };
+		B41C8CB92CE6681E006A1BFF /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B41C8CB72CE6681E006A1BFF /* Main.storyboard */; };
+		B41C8CC12CE6681E006A1BFF /* SuttaCentral Enhancement Extension Extension.appex in Embed Foundation Extensions */ = {isa = PBXBuildFile; fileRef = B41C8CC02CE6681E006A1BFF /* SuttaCentral Enhancement Extension Extension.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+		B41C8CCB2CE6681E006A1BFF /* SuttaCentral Enhancement Extension Extension.appex in Embed Foundation Extensions */ = {isa = PBXBuildFile; fileRef = B41C8CCA2CE6681E006A1BFF /* SuttaCentral Enhancement Extension Extension.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+		B41C8CD12CE6681E006A1BFF /* Main.html in Resources */ = {isa = PBXBuildFile; fileRef = B41C8C942CE6681D006A1BFF /* Main.html */; };
+		B41C8CD22CE6681E006A1BFF /* Main.html in Resources */ = {isa = PBXBuildFile; fileRef = B41C8C942CE6681D006A1BFF /* Main.html */; };
+		B41C8CD32CE6681E006A1BFF /* Icon.png in Resources */ = {isa = PBXBuildFile; fileRef = B41C8C962CE6681D006A1BFF /* Icon.png */; };
+		B41C8CD42CE6681E006A1BFF /* Icon.png in Resources */ = {isa = PBXBuildFile; fileRef = B41C8C962CE6681D006A1BFF /* Icon.png */; };
+		B41C8CD52CE6681E006A1BFF /* Style.css in Resources */ = {isa = PBXBuildFile; fileRef = B41C8C972CE6681D006A1BFF /* Style.css */; };
+		B41C8CD62CE6681E006A1BFF /* Style.css in Resources */ = {isa = PBXBuildFile; fileRef = B41C8C972CE6681D006A1BFF /* Style.css */; };
+		B41C8CD72CE6681E006A1BFF /* Script.js in Resources */ = {isa = PBXBuildFile; fileRef = B41C8C982CE6681D006A1BFF /* Script.js */; };
+		B41C8CD82CE6681E006A1BFF /* Script.js in Resources */ = {isa = PBXBuildFile; fileRef = B41C8C982CE6681D006A1BFF /* Script.js */; };
+		B41C8CD92CE6681E006A1BFF /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B41C8C992CE6681D006A1BFF /* ViewController.swift */; };
+		B41C8CDA2CE6681E006A1BFF /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B41C8C992CE6681D006A1BFF /* ViewController.swift */; };
+		B41C8CDB2CE6681E006A1BFF /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B41C8C9A2CE6681E006A1BFF /* Assets.xcassets */; };
+		B41C8CDC2CE6681E006A1BFF /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B41C8C9A2CE6681E006A1BFF /* Assets.xcassets */; };
+		B41C8CDD2CE6681E006A1BFF /* SafariWebExtensionHandler.swift in Sources */ = {isa = PBXBuildFile; fileRef = B41C8C9C2CE6681E006A1BFF /* SafariWebExtensionHandler.swift */; };
+		B41C8CDE2CE6681E006A1BFF /* SafariWebExtensionHandler.swift in Sources */ = {isa = PBXBuildFile; fileRef = B41C8C9C2CE6681E006A1BFF /* SafariWebExtensionHandler.swift */; };
+		B41C8CFA2CE6681E006A1BFF /* background.js in Resources */ = {isa = PBXBuildFile; fileRef = B41C8CF02CE6681E006A1BFF /* background.js */; };
+		B41C8CFB2CE6681E006A1BFF /* extension-pages in Resources */ = {isa = PBXBuildFile; fileRef = B41C8CF12CE6681E006A1BFF /* extension-pages */; };
+		B41C8CFC2CE6681E006A1BFF /* js in Resources */ = {isa = PBXBuildFile; fileRef = B41C8CF22CE6681E006A1BFF /* js */; };
+		B41C8CFD2CE6681E006A1BFF /* popup.html in Resources */ = {isa = PBXBuildFile; fileRef = B41C8CF32CE6681E006A1BFF /* popup.html */; };
+		B41C8CFE2CE6681E006A1BFF /* VpMenu.html in Resources */ = {isa = PBXBuildFile; fileRef = B41C8CF42CE6681E006A1BFF /* VpMenu.html */; };
+		B41C8CFF2CE6681E006A1BFF /* chunks in Resources */ = {isa = PBXBuildFile; fileRef = B41C8CF52CE6681E006A1BFF /* chunks */; };
+		B41C8D002CE6681E006A1BFF /* content-scripts in Resources */ = {isa = PBXBuildFile; fileRef = B41C8CF62CE6681E006A1BFF /* content-scripts */; };
+		B41C8D012CE6681E006A1BFF /* manifest.json in Resources */ = {isa = PBXBuildFile; fileRef = B41C8CF72CE6681E006A1BFF /* manifest.json */; };
+		B41C8D022CE6681E006A1BFF /* icon in Resources */ = {isa = PBXBuildFile; fileRef = B41C8CF82CE6681E006A1BFF /* icon */; };
+		B41C8D032CE6681E006A1BFF /* assets in Resources */ = {isa = PBXBuildFile; fileRef = B41C8CF92CE6681E006A1BFF /* assets */; };
+		B41C8D042CE6681E006A1BFF /* background.js in Resources */ = {isa = PBXBuildFile; fileRef = B41C8CF02CE6681E006A1BFF /* background.js */; };
+		B41C8D052CE6681E006A1BFF /* extension-pages in Resources */ = {isa = PBXBuildFile; fileRef = B41C8CF12CE6681E006A1BFF /* extension-pages */; };
+		B41C8D062CE6681E006A1BFF /* js in Resources */ = {isa = PBXBuildFile; fileRef = B41C8CF22CE6681E006A1BFF /* js */; };
+		B41C8D072CE6681E006A1BFF /* popup.html in Resources */ = {isa = PBXBuildFile; fileRef = B41C8CF32CE6681E006A1BFF /* popup.html */; };
+		B41C8D082CE6681E006A1BFF /* VpMenu.html in Resources */ = {isa = PBXBuildFile; fileRef = B41C8CF42CE6681E006A1BFF /* VpMenu.html */; };
+		B41C8D092CE6681E006A1BFF /* chunks in Resources */ = {isa = PBXBuildFile; fileRef = B41C8CF52CE6681E006A1BFF /* chunks */; };
+		B41C8D0A2CE6681E006A1BFF /* content-scripts in Resources */ = {isa = PBXBuildFile; fileRef = B41C8CF62CE6681E006A1BFF /* content-scripts */; };
+		B41C8D0B2CE6681E006A1BFF /* manifest.json in Resources */ = {isa = PBXBuildFile; fileRef = B41C8CF72CE6681E006A1BFF /* manifest.json */; };
+		B41C8D0C2CE6681E006A1BFF /* icon in Resources */ = {isa = PBXBuildFile; fileRef = B41C8CF82CE6681E006A1BFF /* icon */; };
+		B41C8D0D2CE6681E006A1BFF /* assets in Resources */ = {isa = PBXBuildFile; fileRef = B41C8CF92CE6681E006A1BFF /* assets */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		B41C8CC22CE6681E006A1BFF /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = B41C8C8E2CE6681C006A1BFF /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = B41C8CBF2CE6681E006A1BFF;
+			remoteInfo = "SuttaCentral Enhancement Extension Extension (iOS)";
+		};
+		B41C8CCC2CE6681E006A1BFF /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = B41C8C8E2CE6681C006A1BFF /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = B41C8CC92CE6681E006A1BFF;
+			remoteInfo = "SuttaCentral Enhancement Extension Extension (macOS)";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		B41C8CE42CE6681E006A1BFF /* Embed Foundation Extensions */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 13;
+			files = (
+				B41C8CC12CE6681E006A1BFF /* SuttaCentral Enhancement Extension Extension.appex in Embed Foundation Extensions */,
+			);
+			name = "Embed Foundation Extensions";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B41C8CEB2CE6681E006A1BFF /* Embed Foundation Extensions */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 13;
+			files = (
+				B41C8CCB2CE6681E006A1BFF /* SuttaCentral Enhancement Extension Extension.appex in Embed Foundation Extensions */,
+			);
+			name = "Embed Foundation Extensions";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		B41C8C952CE6681D006A1BFF /* Base */ = {isa = PBXFileReference; lastKnownFileType = text.html; name = Base; path = Base.lproj/Main.html; sourceTree = "<group>"; };
+		B41C8C962CE6681D006A1BFF /* Icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Icon.png; sourceTree = "<group>"; };
+		B41C8C972CE6681D006A1BFF /* Style.css */ = {isa = PBXFileReference; lastKnownFileType = text.css; path = Style.css; sourceTree = "<group>"; };
+		B41C8C982CE6681D006A1BFF /* Script.js */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.javascript; path = Script.js; sourceTree = "<group>"; };
+		B41C8C992CE6681D006A1BFF /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		B41C8C9A2CE6681E006A1BFF /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		B41C8C9C2CE6681E006A1BFF /* SafariWebExtensionHandler.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SafariWebExtensionHandler.swift; sourceTree = "<group>"; };
+		B41C8CA12CE6681E006A1BFF /* SuttaCentral Enhancement Extension.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "SuttaCentral Enhancement Extension.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		B41C8CA42CE6681E006A1BFF /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		B41C8CA62CE6681E006A1BFF /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		B41C8CA92CE6681E006A1BFF /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		B41C8CAC2CE6681E006A1BFF /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		B41C8CAE2CE6681E006A1BFF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B41C8CB32CE6681E006A1BFF /* SuttaCentral Enhancement Extension.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "SuttaCentral Enhancement Extension.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		B41C8CB52CE6681E006A1BFF /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		B41C8CB82CE6681E006A1BFF /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		B41C8CBA2CE6681E006A1BFF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B41C8CBB2CE6681E006A1BFF /* SuttaCentral Enhancement Extension.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = "SuttaCentral Enhancement Extension.entitlements"; sourceTree = "<group>"; };
+		B41C8CC02CE6681E006A1BFF /* SuttaCentral Enhancement Extension Extension.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = "SuttaCentral Enhancement Extension Extension.appex"; sourceTree = BUILT_PRODUCTS_DIR; };
+		B41C8CC52CE6681E006A1BFF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B41C8CCA2CE6681E006A1BFF /* SuttaCentral Enhancement Extension Extension.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = "SuttaCentral Enhancement Extension Extension.appex"; sourceTree = BUILT_PRODUCTS_DIR; };
+		B41C8CCF2CE6681E006A1BFF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B41C8CD02CE6681E006A1BFF /* SuttaCentral Enhancement Extension.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = "SuttaCentral Enhancement Extension.entitlements"; sourceTree = "<group>"; };
+		B41C8CF02CE6681E006A1BFF /* background.js */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.javascript; name = background.js; path = "../../sc-ext/background.js"; sourceTree = "<group>"; };
+		B41C8CF12CE6681E006A1BFF /* extension-pages */ = {isa = PBXFileReference; lastKnownFileType = folder; name = "extension-pages"; path = "../../sc-ext/extension-pages"; sourceTree = "<group>"; };
+		B41C8CF22CE6681E006A1BFF /* js */ = {isa = PBXFileReference; lastKnownFileType = folder; name = js; path = "../../sc-ext/js"; sourceTree = "<group>"; };
+		B41C8CF32CE6681E006A1BFF /* popup.html */ = {isa = PBXFileReference; lastKnownFileType = text.html; name = popup.html; path = "../../sc-ext/popup.html"; sourceTree = "<group>"; };
+		B41C8CF42CE6681E006A1BFF /* VpMenu.html */ = {isa = PBXFileReference; lastKnownFileType = text.html; name = VpMenu.html; path = "../../sc-ext/VpMenu.html"; sourceTree = "<group>"; };
+		B41C8CF52CE6681E006A1BFF /* chunks */ = {isa = PBXFileReference; lastKnownFileType = folder; name = chunks; path = "../../sc-ext/chunks"; sourceTree = "<group>"; };
+		B41C8CF62CE6681E006A1BFF /* content-scripts */ = {isa = PBXFileReference; lastKnownFileType = folder; name = "content-scripts"; path = "../../sc-ext/content-scripts"; sourceTree = "<group>"; };
+		B41C8CF72CE6681E006A1BFF /* manifest.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; name = manifest.json; path = "../../sc-ext/manifest.json"; sourceTree = "<group>"; };
+		B41C8CF82CE6681E006A1BFF /* icon */ = {isa = PBXFileReference; lastKnownFileType = folder; name = icon; path = "../../sc-ext/icon"; sourceTree = "<group>"; };
+		B41C8CF92CE6681E006A1BFF /* assets */ = {isa = PBXFileReference; lastKnownFileType = folder; name = assets; path = "../../sc-ext/assets"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		B41C8C9E2CE6681E006A1BFF /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B41C8CB02CE6681E006A1BFF /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B41C8CBD2CE6681E006A1BFF /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B41C8CC72CE6681E006A1BFF /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		B41C8C8D2CE6681C006A1BFF = {
+			isa = PBXGroup;
+			children = (
+				B41C8C922CE6681D006A1BFF /* Shared (App) */,
+				B41C8C9B2CE6681E006A1BFF /* Shared (Extension) */,
+				B41C8CA32CE6681E006A1BFF /* iOS (App) */,
+				B41C8CB42CE6681E006A1BFF /* macOS (App) */,
+				B41C8CC42CE6681E006A1BFF /* iOS (Extension) */,
+				B41C8CCE2CE6681E006A1BFF /* macOS (Extension) */,
+				B41C8CA22CE6681E006A1BFF /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		B41C8C922CE6681D006A1BFF /* Shared (App) */ = {
+			isa = PBXGroup;
+			children = (
+				B41C8C992CE6681D006A1BFF /* ViewController.swift */,
+				B41C8C9A2CE6681E006A1BFF /* Assets.xcassets */,
+				B41C8C932CE6681D006A1BFF /* Resources */,
+			);
+			path = "Shared (App)";
+			sourceTree = "<group>";
+		};
+		B41C8C932CE6681D006A1BFF /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				B41C8C942CE6681D006A1BFF /* Main.html */,
+				B41C8C962CE6681D006A1BFF /* Icon.png */,
+				B41C8C972CE6681D006A1BFF /* Style.css */,
+				B41C8C982CE6681D006A1BFF /* Script.js */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		B41C8C9B2CE6681E006A1BFF /* Shared (Extension) */ = {
+			isa = PBXGroup;
+			children = (
+				B41C8CEF2CE6681E006A1BFF /* Resources */,
+				B41C8C9C2CE6681E006A1BFF /* SafariWebExtensionHandler.swift */,
+			);
+			path = "Shared (Extension)";
+			sourceTree = "<group>";
+		};
+		B41C8CA22CE6681E006A1BFF /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				B41C8CA12CE6681E006A1BFF /* SuttaCentral Enhancement Extension.app */,
+				B41C8CB32CE6681E006A1BFF /* SuttaCentral Enhancement Extension.app */,
+				B41C8CC02CE6681E006A1BFF /* SuttaCentral Enhancement Extension Extension.appex */,
+				B41C8CCA2CE6681E006A1BFF /* SuttaCentral Enhancement Extension Extension.appex */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		B41C8CA32CE6681E006A1BFF /* iOS (App) */ = {
+			isa = PBXGroup;
+			children = (
+				B41C8CA42CE6681E006A1BFF /* AppDelegate.swift */,
+				B41C8CA62CE6681E006A1BFF /* SceneDelegate.swift */,
+				B41C8CA82CE6681E006A1BFF /* LaunchScreen.storyboard */,
+				B41C8CAB2CE6681E006A1BFF /* Main.storyboard */,
+				B41C8CAE2CE6681E006A1BFF /* Info.plist */,
+			);
+			path = "iOS (App)";
+			sourceTree = "<group>";
+		};
+		B41C8CB42CE6681E006A1BFF /* macOS (App) */ = {
+			isa = PBXGroup;
+			children = (
+				B41C8CB52CE6681E006A1BFF /* AppDelegate.swift */,
+				B41C8CB72CE6681E006A1BFF /* Main.storyboard */,
+				B41C8CBA2CE6681E006A1BFF /* Info.plist */,
+				B41C8CBB2CE6681E006A1BFF /* SuttaCentral Enhancement Extension.entitlements */,
+			);
+			path = "macOS (App)";
+			sourceTree = "<group>";
+		};
+		B41C8CC42CE6681E006A1BFF /* iOS (Extension) */ = {
+			isa = PBXGroup;
+			children = (
+				B41C8CC52CE6681E006A1BFF /* Info.plist */,
+			);
+			path = "iOS (Extension)";
+			sourceTree = "<group>";
+		};
+		B41C8CCE2CE6681E006A1BFF /* macOS (Extension) */ = {
+			isa = PBXGroup;
+			children = (
+				B41C8CCF2CE6681E006A1BFF /* Info.plist */,
+				B41C8CD02CE6681E006A1BFF /* SuttaCentral Enhancement Extension.entitlements */,
+			);
+			path = "macOS (Extension)";
+			sourceTree = "<group>";
+		};
+		B41C8CEF2CE6681E006A1BFF /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				B41C8CF02CE6681E006A1BFF /* background.js */,
+				B41C8CF12CE6681E006A1BFF /* extension-pages */,
+				B41C8CF22CE6681E006A1BFF /* js */,
+				B41C8CF32CE6681E006A1BFF /* popup.html */,
+				B41C8CF42CE6681E006A1BFF /* VpMenu.html */,
+				B41C8CF52CE6681E006A1BFF /* chunks */,
+				B41C8CF62CE6681E006A1BFF /* content-scripts */,
+				B41C8CF72CE6681E006A1BFF /* manifest.json */,
+				B41C8CF82CE6681E006A1BFF /* icon */,
+				B41C8CF92CE6681E006A1BFF /* assets */,
+			);
+			name = Resources;
+			path = "Shared (Extension)";
+			sourceTree = SOURCE_ROOT;
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		B41C8CA02CE6681E006A1BFF /* SuttaCentral Enhancement Extension (iOS) */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B41C8CE52CE6681E006A1BFF /* Build configuration list for PBXNativeTarget "SuttaCentral Enhancement Extension (iOS)" */;
+			buildPhases = (
+				B41C8C9D2CE6681E006A1BFF /* Sources */,
+				B41C8C9E2CE6681E006A1BFF /* Frameworks */,
+				B41C8C9F2CE6681E006A1BFF /* Resources */,
+				B41C8CE42CE6681E006A1BFF /* Embed Foundation Extensions */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				B41C8CC32CE6681E006A1BFF /* PBXTargetDependency */,
+			);
+			name = "SuttaCentral Enhancement Extension (iOS)";
+			packageProductDependencies = (
+			);
+			productName = "SuttaCentral Enhancement Extension (iOS)";
+			productReference = B41C8CA12CE6681E006A1BFF /* SuttaCentral Enhancement Extension.app */;
+			productType = "com.apple.product-type.application";
+		};
+		B41C8CB22CE6681E006A1BFF /* SuttaCentral Enhancement Extension (macOS) */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B41C8CEC2CE6681E006A1BFF /* Build configuration list for PBXNativeTarget "SuttaCentral Enhancement Extension (macOS)" */;
+			buildPhases = (
+				B41C8CAF2CE6681E006A1BFF /* Sources */,
+				B41C8CB02CE6681E006A1BFF /* Frameworks */,
+				B41C8CB12CE6681E006A1BFF /* Resources */,
+				B41C8CEB2CE6681E006A1BFF /* Embed Foundation Extensions */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				B41C8CCD2CE6681E006A1BFF /* PBXTargetDependency */,
+			);
+			name = "SuttaCentral Enhancement Extension (macOS)";
+			packageProductDependencies = (
+			);
+			productName = "SuttaCentral Enhancement Extension (macOS)";
+			productReference = B41C8CB32CE6681E006A1BFF /* SuttaCentral Enhancement Extension.app */;
+			productType = "com.apple.product-type.application";
+		};
+		B41C8CBF2CE6681E006A1BFF /* SuttaCentral Enhancement Extension Extension (iOS) */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B41C8CE12CE6681E006A1BFF /* Build configuration list for PBXNativeTarget "SuttaCentral Enhancement Extension Extension (iOS)" */;
+			buildPhases = (
+				B41C8CBC2CE6681E006A1BFF /* Sources */,
+				B41C8CBD2CE6681E006A1BFF /* Frameworks */,
+				B41C8CBE2CE6681E006A1BFF /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "SuttaCentral Enhancement Extension Extension (iOS)";
+			packageProductDependencies = (
+			);
+			productName = "SuttaCentral Enhancement Extension Extension (iOS)";
+			productReference = B41C8CC02CE6681E006A1BFF /* SuttaCentral Enhancement Extension Extension.appex */;
+			productType = "com.apple.product-type.app-extension";
+		};
+		B41C8CC92CE6681E006A1BFF /* SuttaCentral Enhancement Extension Extension (macOS) */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B41C8CE82CE6681E006A1BFF /* Build configuration list for PBXNativeTarget "SuttaCentral Enhancement Extension Extension (macOS)" */;
+			buildPhases = (
+				B41C8CC62CE6681E006A1BFF /* Sources */,
+				B41C8CC72CE6681E006A1BFF /* Frameworks */,
+				B41C8CC82CE6681E006A1BFF /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "SuttaCentral Enhancement Extension Extension (macOS)";
+			packageProductDependencies = (
+			);
+			productName = "SuttaCentral Enhancement Extension Extension (macOS)";
+			productReference = B41C8CCA2CE6681E006A1BFF /* SuttaCentral Enhancement Extension Extension.appex */;
+			productType = "com.apple.product-type.app-extension";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		B41C8C8E2CE6681C006A1BFF /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1610;
+				LastUpgradeCheck = 1610;
+				TargetAttributes = {
+					B41C8CA02CE6681E006A1BFF = {
+						CreatedOnToolsVersion = 16.1;
+					};
+					B41C8CB22CE6681E006A1BFF = {
+						CreatedOnToolsVersion = 16.1;
+					};
+					B41C8CBF2CE6681E006A1BFF = {
+						CreatedOnToolsVersion = 16.1;
+					};
+					B41C8CC92CE6681E006A1BFF = {
+						CreatedOnToolsVersion = 16.1;
+					};
+				};
+			};
+			buildConfigurationList = B41C8C912CE6681C006A1BFF /* Build configuration list for PBXProject "SuttaCentral Enhancement Extension" */;
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = B41C8C8D2CE6681C006A1BFF;
+			minimizedProjectReferenceProxies = 1;
+			preferredProjectObjectVersion = 77;
+			productRefGroup = B41C8CA22CE6681E006A1BFF /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				B41C8CA02CE6681E006A1BFF /* SuttaCentral Enhancement Extension (iOS) */,
+				B41C8CB22CE6681E006A1BFF /* SuttaCentral Enhancement Extension (macOS) */,
+				B41C8CBF2CE6681E006A1BFF /* SuttaCentral Enhancement Extension Extension (iOS) */,
+				B41C8CC92CE6681E006A1BFF /* SuttaCentral Enhancement Extension Extension (macOS) */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		B41C8C9F2CE6681E006A1BFF /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B41C8CD32CE6681E006A1BFF /* Icon.png in Resources */,
+				B41C8CAA2CE6681E006A1BFF /* LaunchScreen.storyboard in Resources */,
+				B41C8CD12CE6681E006A1BFF /* Main.html in Resources */,
+				B41C8CD72CE6681E006A1BFF /* Script.js in Resources */,
+				B41C8CDB2CE6681E006A1BFF /* Assets.xcassets in Resources */,
+				B41C8CAD2CE6681E006A1BFF /* Main.storyboard in Resources */,
+				B41C8CD52CE6681E006A1BFF /* Style.css in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B41C8CB12CE6681E006A1BFF /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B41C8CD42CE6681E006A1BFF /* Icon.png in Resources */,
+				B41C8CD62CE6681E006A1BFF /* Style.css in Resources */,
+				B41C8CB92CE6681E006A1BFF /* Main.storyboard in Resources */,
+				B41C8CD82CE6681E006A1BFF /* Script.js in Resources */,
+				B41C8CDC2CE6681E006A1BFF /* Assets.xcassets in Resources */,
+				B41C8CD22CE6681E006A1BFF /* Main.html in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B41C8CBE2CE6681E006A1BFF /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B41C8D092CE6681E006A1BFF /* chunks in Resources */,
+				B41C8D0A2CE6681E006A1BFF /* content-scripts in Resources */,
+				B41C8D042CE6681E006A1BFF /* background.js in Resources */,
+				B41C8D072CE6681E006A1BFF /* popup.html in Resources */,
+				B41C8D0B2CE6681E006A1BFF /* manifest.json in Resources */,
+				B41C8D0D2CE6681E006A1BFF /* assets in Resources */,
+				B41C8D062CE6681E006A1BFF /* js in Resources */,
+				B41C8D082CE6681E006A1BFF /* VpMenu.html in Resources */,
+				B41C8D0C2CE6681E006A1BFF /* icon in Resources */,
+				B41C8D052CE6681E006A1BFF /* extension-pages in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B41C8CC82CE6681E006A1BFF /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B41C8CFF2CE6681E006A1BFF /* chunks in Resources */,
+				B41C8D002CE6681E006A1BFF /* content-scripts in Resources */,
+				B41C8CFA2CE6681E006A1BFF /* background.js in Resources */,
+				B41C8CFD2CE6681E006A1BFF /* popup.html in Resources */,
+				B41C8D012CE6681E006A1BFF /* manifest.json in Resources */,
+				B41C8D032CE6681E006A1BFF /* assets in Resources */,
+				B41C8CFC2CE6681E006A1BFF /* js in Resources */,
+				B41C8CFE2CE6681E006A1BFF /* VpMenu.html in Resources */,
+				B41C8D022CE6681E006A1BFF /* icon in Resources */,
+				B41C8CFB2CE6681E006A1BFF /* extension-pages in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		B41C8C9D2CE6681E006A1BFF /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B41C8CD92CE6681E006A1BFF /* ViewController.swift in Sources */,
+				B41C8CA52CE6681E006A1BFF /* AppDelegate.swift in Sources */,
+				B41C8CA72CE6681E006A1BFF /* SceneDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B41C8CAF2CE6681E006A1BFF /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B41C8CDA2CE6681E006A1BFF /* ViewController.swift in Sources */,
+				B41C8CB62CE6681E006A1BFF /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B41C8CBC2CE6681E006A1BFF /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B41C8CDD2CE6681E006A1BFF /* SafariWebExtensionHandler.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B41C8CC62CE6681E006A1BFF /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B41C8CDE2CE6681E006A1BFF /* SafariWebExtensionHandler.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		B41C8CC32CE6681E006A1BFF /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = B41C8CBF2CE6681E006A1BFF /* SuttaCentral Enhancement Extension Extension (iOS) */;
+			targetProxy = B41C8CC22CE6681E006A1BFF /* PBXContainerItemProxy */;
+		};
+		B41C8CCD2CE6681E006A1BFF /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = B41C8CC92CE6681E006A1BFF /* SuttaCentral Enhancement Extension Extension (macOS) */;
+			targetProxy = B41C8CCC2CE6681E006A1BFF /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		B41C8C942CE6681D006A1BFF /* Main.html */ = {
+			isa = PBXVariantGroup;
+			children = (
+				B41C8C952CE6681D006A1BFF /* Base */,
+			);
+			name = Main.html;
+			sourceTree = "<group>";
+		};
+		B41C8CA82CE6681E006A1BFF /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				B41C8CA92CE6681E006A1BFF /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+		B41C8CAB2CE6681E006A1BFF /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				B41C8CAC2CE6681E006A1BFF /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		B41C8CB72CE6681E006A1BFF /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				B41C8CB82CE6681E006A1BFF /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		B41C8CDF2CE6681E006A1BFF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		B41C8CE02CE6681E006A1BFF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SWIFT_COMPILATION_MODE = wholemodule;
+			};
+			name = Release;
+		};
+		B41C8CE22CE6681E006A1BFF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "iOS (Extension)/Info.plist";
+				INFOPLIST_KEY_CFBundleDisplayName = "SuttaCentral Enhancement Extension Extension";
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@executable_path/../../Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				OTHER_LDFLAGS = (
+					"-framework",
+					SafariServices,
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.yourCompany.SuttaCentral-Enhancement-Extension.Extension";
+				PRODUCT_NAME = "SuttaCentral Enhancement Extension Extension";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		B41C8CE32CE6681E006A1BFF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "iOS (Extension)/Info.plist";
+				INFOPLIST_KEY_CFBundleDisplayName = "SuttaCentral Enhancement Extension Extension";
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@executable_path/../../Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				OTHER_LDFLAGS = (
+					"-framework",
+					SafariServices,
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.yourCompany.SuttaCentral-Enhancement-Extension.Extension";
+				PRODUCT_NAME = "SuttaCentral Enhancement Extension Extension";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		B41C8CE62CE6681E006A1BFF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "iOS (App)/Info.plist";
+				INFOPLIST_KEY_CFBundleDisplayName = "SuttaCentral Enhancement Extension";
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				OTHER_LDFLAGS = (
+					"-framework",
+					SafariServices,
+					"-framework",
+					WebKit,
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.yourCompany.SuttaCentral-Enhancement-Extension";
+				PRODUCT_NAME = "SuttaCentral Enhancement Extension";
+				SDKROOT = iphoneos;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		B41C8CE72CE6681E006A1BFF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "iOS (App)/Info.plist";
+				INFOPLIST_KEY_CFBundleDisplayName = "SuttaCentral Enhancement Extension";
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				OTHER_LDFLAGS = (
+					"-framework",
+					SafariServices,
+					"-framework",
+					WebKit,
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.yourCompany.SuttaCentral-Enhancement-Extension";
+				PRODUCT_NAME = "SuttaCentral Enhancement Extension";
+				SDKROOT = iphoneos;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		B41C8CE92CE6681E006A1BFF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_ENTITLEMENTS = "macOS (Extension)/SuttaCentral Enhancement Extension.entitlements";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				ENABLE_HARDENED_RUNTIME = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "macOS (Extension)/Info.plist";
+				INFOPLIST_KEY_CFBundleDisplayName = "SuttaCentral Enhancement Extension Extension";
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+					"@executable_path/../../../../Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 10.14;
+				MARKETING_VERSION = 1.0;
+				OTHER_LDFLAGS = (
+					"-framework",
+					SafariServices,
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.yourCompany.SuttaCentral-Enhancement-Extension.Extension";
+				PRODUCT_NAME = "SuttaCentral Enhancement Extension Extension";
+				SDKROOT = macosx;
+				SKIP_INSTALL = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Debug;
+		};
+		B41C8CEA2CE6681E006A1BFF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_ENTITLEMENTS = "macOS (Extension)/SuttaCentral Enhancement Extension.entitlements";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				ENABLE_HARDENED_RUNTIME = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "macOS (Extension)/Info.plist";
+				INFOPLIST_KEY_CFBundleDisplayName = "SuttaCentral Enhancement Extension Extension";
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+					"@executable_path/../../../../Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 10.14;
+				MARKETING_VERSION = 1.0;
+				OTHER_LDFLAGS = (
+					"-framework",
+					SafariServices,
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.yourCompany.SuttaCentral-Enhancement-Extension.Extension";
+				PRODUCT_NAME = "SuttaCentral Enhancement Extension Extension";
+				SDKROOT = macosx;
+				SKIP_INSTALL = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Release;
+		};
+		B41C8CED2CE6681E006A1BFF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = "macOS (App)/SuttaCentral Enhancement Extension.entitlements";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				ENABLE_HARDENED_RUNTIME = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "macOS (App)/Info.plist";
+				INFOPLIST_KEY_CFBundleDisplayName = "SuttaCentral Enhancement Extension";
+				INFOPLIST_KEY_NSMainStoryboardFile = Main;
+				INFOPLIST_KEY_NSPrincipalClass = NSApplication;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 10.14;
+				MARKETING_VERSION = 1.0;
+				OTHER_LDFLAGS = (
+					"-framework",
+					SafariServices,
+					"-framework",
+					WebKit,
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.yourCompany.SuttaCentral-Enhancement-Extension";
+				PRODUCT_NAME = "SuttaCentral Enhancement Extension";
+				SDKROOT = macosx;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Debug;
+		};
+		B41C8CEE2CE6681E006A1BFF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = "macOS (App)/SuttaCentral Enhancement Extension.entitlements";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				ENABLE_HARDENED_RUNTIME = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "macOS (App)/Info.plist";
+				INFOPLIST_KEY_CFBundleDisplayName = "SuttaCentral Enhancement Extension";
+				INFOPLIST_KEY_NSMainStoryboardFile = Main;
+				INFOPLIST_KEY_NSPrincipalClass = NSApplication;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 10.14;
+				MARKETING_VERSION = 1.0;
+				OTHER_LDFLAGS = (
+					"-framework",
+					SafariServices,
+					"-framework",
+					WebKit,
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.yourCompany.SuttaCentral-Enhancement-Extension";
+				PRODUCT_NAME = "SuttaCentral Enhancement Extension";
+				SDKROOT = macosx;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		B41C8C912CE6681C006A1BFF /* Build configuration list for PBXProject "SuttaCentral Enhancement Extension" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B41C8CDF2CE6681E006A1BFF /* Debug */,
+				B41C8CE02CE6681E006A1BFF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B41C8CE12CE6681E006A1BFF /* Build configuration list for PBXNativeTarget "SuttaCentral Enhancement Extension Extension (iOS)" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B41C8CE22CE6681E006A1BFF /* Debug */,
+				B41C8CE32CE6681E006A1BFF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B41C8CE52CE6681E006A1BFF /* Build configuration list for PBXNativeTarget "SuttaCentral Enhancement Extension (iOS)" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B41C8CE62CE6681E006A1BFF /* Debug */,
+				B41C8CE72CE6681E006A1BFF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B41C8CE82CE6681E006A1BFF /* Build configuration list for PBXNativeTarget "SuttaCentral Enhancement Extension Extension (macOS)" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B41C8CE92CE6681E006A1BFF /* Debug */,
+				B41C8CEA2CE6681E006A1BFF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B41C8CEC2CE6681E006A1BFF /* Build configuration list for PBXNativeTarget "SuttaCentral Enhancement Extension (macOS)" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B41C8CED2CE6681E006A1BFF /* Debug */,
+				B41C8CEE2CE6681E006A1BFF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = B41C8C8E2CE6681C006A1BFF /* Project object */;
+}
